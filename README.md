@@ -9,5 +9,7 @@ We need to kepp state for each piece for validating some none common rules: such
 
 Some sources for existing implementations:
 https://codereview.stackexchange.com/questions/71790/design-a-chess-game-using-object-oriented-principles
+
 https://massivetechinterview.blogspot.com/2015/07/design-chess-game-using-oo-principles.html
+
 https://www.geeksforgeeks.org/design-a-chess-game/
