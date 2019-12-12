@@ -13,3 +13,7 @@ https://codereview.stackexchange.com/questions/71790/design-a-chess-game-using-o
 https://massivetechinterview.blogspot.com/2015/07/design-chess-game-using-oo-principles.html
 
 https://www.geeksforgeeks.org/design-a-chess-game/
+
+
+Main structure: each piece will validate its common rule, then custom rule validator will be used with chain of responsibility pattern to make custom validations  . Some of the pieces should have state, such as pawn is moved or not, or king is moved or not
+
