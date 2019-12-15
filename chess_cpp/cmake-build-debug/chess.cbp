@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess">
+				<Option output="/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess/fast">
+				<Option output="/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/Board.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/Board.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/Spot.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/Spot.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/beans/KingIsUnderAttackResponse.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/beans/KingIsUnderAttackResponse.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/beans/ValidationResponse.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/beans/ValidationResponse.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/main.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Bishop.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Bishop.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/King.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/King.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Knight.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Knight.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Pawn.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Pawn.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Piece.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Piece.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Queen.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Queen.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Rook.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Rook.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/statecheckers/BaseStateChangeChecker.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/statecheckers/BaseStateChangeChecker.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/statecheckers/KingUnderAttackChecker.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/statecheckers/KingUnderAttackChecker.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/statecheckers/PieceGoneChecker.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/statecheckers/PieceGoneChecker.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/utils/MessageHandler.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/utils/MessageHandler.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/utils/PathCalculator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/utils/PathCalculator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/BishopMoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/BishopMoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/DestinationValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/DestinationValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/EmptySlotValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/EmptySlotValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/EndSlotWithinBorderValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/EndSlotWithinBorderValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/KingMoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/KingMoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/KingUnderAttackValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/KingUnderAttackValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/KnightMoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/KnightMoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/PathAvailableValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/PathAvailableValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/PawnMoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/PawnMoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/PieceMoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/PieceMoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/QueenMoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/QueenMoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/RookMoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/RookMoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/factory/ValidatorFactory.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/validators/factory/ValidatorFactory.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
