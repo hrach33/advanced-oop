@@ -1,4 +1,4 @@
-package chess.validators.beans;
+package chess.beans;
 
 public class ValidationResponse {
     private boolean valid;

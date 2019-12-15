@@ -1,9 +1,6 @@
 package chess;
 
-import chess.piecies.Bishop;
-import chess.piecies.Knight;
-import chess.piecies.Pawn;
-import chess.piecies.Rook;
+import chess.piecies.*;
 
 public class Board {
     Spot[][] boxes;
@@ -13,15 +10,14 @@ public class Board {
         this.resetBoard();
     }
 
-    public Spot getBox(int x, int y) throws Exception {
-
-        if (x < 0 || x > 7 || y < 0 || y > 7) {
-            throw new Exception("Index out of bound");
-        }
+    public Spot getBox(int x, int y) {
 
         return boxes[x][y];
     }
 
+    public void setBox(int x, int y, Spot spot){
+        boxes[x][y] = spot;
+    }
     public void resetBoard()
     {
         // initialize white pieces
@@ -48,5 +44,18 @@ public class Board {
                 boxes[i][j] = new Spot(i, j, null);
             }
         }
+    }
+
+    public Spot getKingSpot(boolean isWhite){
+        for(int i = 0; i < boxes.length; i++){
+            for (int j = 0; j < boxes[0].length; j++){
+                if(boxes[i][j] != null
+                        && boxes[i][j].getPiece() != null
+                        && boxes[i][j].getPiece() instanceof King
+                    && boxes[i][j].getPiece().isWhite() == isWhite)
+                    return boxes[i][j];
+            }
+        }
+        return null;
     }
 }

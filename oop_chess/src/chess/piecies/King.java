@@ -2,6 +2,10 @@ package chess.piecies;
 
 import chess.Board;
 import chess.Spot;
+import chess.beans.KingIsUnderAttackResponse;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class King extends Piece {
 
@@ -22,40 +26,23 @@ public class King extends Piece {
         this.castlingDone = castlingDone;
     }
 
+
     @Override
-    public boolean canMove(Board board, Spot start, Spot end)
-    {
-        // we can't move the piece to a chess.Spot that
-        // has a piece of the same color
-        if (end.getPiece().isWhite() == this.isWhite()) {
-            return false;
-        }
-
-        int x = Math.abs(start.getX() - end.getX());
-        int y = Math.abs(start.getY() - end.getY());
-        if (x + y == 1) {
-            // check if this move will not result in the king
-            // being attacked if so return true
-            return true;
-        }
-
-        return this.isValidCastling(board, start, end);
+    public List<Spot> getPathSpots(Board board, Spot start, Spot end) {
+        return new ArrayList<>();
     }
 
-    private boolean isValidCastling(Board board,
-                                    Spot start, Spot end)
-    {
-
-        if (this.isCastlingDone()) {
-            return false;
-        }
-
-        // Logic for returning true or false
+    @Override
+    public void move(Board board, Spot start, Spot end) {
+        // Each piece is responsible for its logic of movement.
+        // So the movement logic should be implemented here.
+        // the method is not implemented, as the requirement for current task is only validation
     }
 
-    public boolean isCastlingMove(Spot start, Spot end)
-    {
-        // check if the starting and
-        // ending position are correct
+
+    public KingIsUnderAttackResponse isKingUnderAttack(){
+        // should check on all directions, whether it is under attack or not, with direction
+        return new KingIsUnderAttackResponse(false, "Direction");
     }
+
 }

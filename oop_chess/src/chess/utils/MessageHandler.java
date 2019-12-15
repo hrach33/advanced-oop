@@ -1,4 +1,4 @@
-package chess.validators.beans;
+package chess.utils;
 
 public class MessageHandler {
 

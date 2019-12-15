@@ -2,14 +2,14 @@ package chess.validators;
 
 import chess.Board;
 import chess.Spot;
-import chess.validators.beans.ValidationResponse;
+import chess.beans.ValidationResponse;
 
-public abstract class PieceValidator {
+public abstract class PieceMoveValidator {
 
-    private PieceValidator nextValidator;
+    private PieceMoveValidator nextValidator;
 
 
-    public void addValidator(PieceValidator validator) {
+    public void addValidator(PieceMoveValidator validator) {
         if (nextValidator == null) {
             nextValidator = validator;
         } else {
@@ -28,5 +28,5 @@ public abstract class PieceValidator {
 
     public abstract boolean validate(Board board, Spot start, Spot end);
 
-    public abstract String getNotValidMessage();
+    protected abstract String getNotValidMessage();
 }

@@ -3,16 +3,21 @@ package chess.validators;
 
 import chess.Board;
 import chess.Spot;
+import chess.utils.MessageHandler;
 
-public class PathAvailableValidator extends PieceValidator {
+import java.util.List;
+
+public class PathAvailableValidator extends PieceMoveValidator {
+
 
     @Override
     public boolean validate(Board board, Spot start, Spot end) {
-        return false;
+        List<Spot> onPathSpots = start.getPiece().getPathSpots(board, start, end);
+        return onPathSpots == null || onPathSpots.isEmpty();
     }
 
     @Override
     public String getNotValidMessage() {
-        return null;
+        return MessageHandler.getNoMessage();
     }
 }
