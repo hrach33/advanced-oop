@@ -2,9 +2,11 @@ package chess.piecies;
 
 import chess.Board;
 import chess.Spot;
+import chess.statecheckers.BaseStateChangeChecker;
 import chess.validators.PieceMoveValidator;
 import chess.beans.ValidationResponse;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Piece {
@@ -12,6 +14,7 @@ public abstract class Piece {
     private boolean killed = false;
     private boolean white = false;
     private PieceMoveValidator pieceMoveValidator;
+    private BaseStateChangeChecker baseStateChangeChecker;
 
     public Piece(boolean white)
     {
@@ -52,7 +55,15 @@ public abstract class Piece {
         this.pieceMoveValidator = pieceMoveValidator;
     }
 
-    public abstract void move(Board board, Spot start, Spot end);
+    public List<String> move(Board board, Spot start, Spot end){
+        List<String> messages = new ArrayList<>();
+        baseStateChangeChecker.execute(board, start, end, messages);
+
+        end.setPiece(start.getPiece());
+        start.setPiece(null);
+
+        return messages;
+    }
 }
 
 

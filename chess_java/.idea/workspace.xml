@@ -2,43 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="470b9b15-94cb-42a6-81b1-145455221244" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../oop_chess/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/oop_chess.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/Spot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/beans/KingIsUnderAttackResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/beans/ValidationResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/piecies/Bishop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/piecies/King.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/piecies/Knight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/piecies/Pawn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/piecies/Piece.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/piecies/Queen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/piecies/Rook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/statecheckers/BaseStateChangeChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/statecheckers/KingUnderAttackChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/statecheckers/PieceGoneChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/statecheckers/factory/StateChangeCheckerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/utils/MessageHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/utils/PathCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/BishopMoveValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/DestinationValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/EmptySlotValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/EndSlotWithinBorderValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/KingMoveValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/KingUnderAttackValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/KnightMoveValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/PathAvailableValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/PawnMoveValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/PieceMoveValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/QueenMoveValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/RookMoveValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop_chess/src/chess/validators/factory/ValidatorFactory.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kriegspiel_Chess_Documentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chess_java/chess/piecies/Knight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chess_java/chess/piecies/Pawn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chess_java/chess/piecies/Piece.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chess_java/chess/piecies/Rook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/chess_java/chess/statecheckers/KingUnderAttackChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IzHR9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/chess.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/chess.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/cmake-build-debug/chess.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Bishop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Bishop.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Bishop.h" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Bishop.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/King.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/King.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/King.h" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/King.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Knight.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Knight.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Knight.h" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Knight.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Pawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Pawn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Pawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Pawn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Piece.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Piece.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Piece.h" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Piece.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Queen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Queen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Queen.h" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Queen.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Rook.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Rook.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/piecies/Rook.h" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/piecies/Rook.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess_cpp/statecheckers/KingUnderAttackChecker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../chess_cpp/statecheckers/KingUnderAttackChecker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/Spot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/Spot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/beans/KingIsUnderAttackResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/beans/KingIsUnderAttackResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/beans/ValidationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/beans/ValidationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/piecies/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/piecies/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/piecies/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/piecies/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/piecies/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/piecies/Pawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/piecies/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/piecies/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/piecies/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/piecies/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/statecheckers/BaseStateChangeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/statecheckers/BaseStateChangeChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/statecheckers/KingUnderAttackChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/statecheckers/PieceGoneChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/statecheckers/PieceGoneChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/statecheckers/factory/StateChangeCheckerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/statecheckers/factory/StateChangeCheckerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/utils/MessageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/utils/MessageHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/utils/PathCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/utils/PathCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/BishopMoveValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/BishopMoveValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/DestinationValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/DestinationValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/EmptySlotValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/EmptySlotValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/EndSlotWithinBorderValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/EndSlotWithinBorderValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/KingMoveValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/KingMoveValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/KingUnderAttackValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/KingUnderAttackValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/KnightMoveValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/KnightMoveValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/PathAvailableValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/PathAvailableValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/PawnMoveValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/PawnMoveValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/PieceMoveValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/PieceMoveValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/QueenMoveValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/QueenMoveValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/RookMoveValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/RookMoveValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop_chess/chess/validators/factory/ValidatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/chess_java/chess/validators/factory/ValidatorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/piecies/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/piecies/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/piecies/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/piecies/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/piecies/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/piecies/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/piecies/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/piecies/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/piecies/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/piecies/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/piecies/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/piecies/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/piecies/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/piecies/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/statecheckers/KingUnderAttackChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/statecheckers/KingUnderAttackChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../oop_chess/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,54 +153,47 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="java" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="136" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chess/validators/RookMoveValidator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chess/piecies/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
+            <state relative-caret-position="330">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chess/validators/factory/ValidatorFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/chess/piecies/Bishop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/BaseStateChangeChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" selection-start-line="9" selection-end-line="26" />
+            <state relative-caret-position="240">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,8 +204,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/KingUnderAttackChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="18" column="29" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,20 +213,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chess/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/PieceGoneChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="120">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/PieceGoneChecker.java">
+        <entry file="file://$PROJECT_DIR$/src/chess/piecies/King.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chess/piecies/Knight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chess/piecies/Pawn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chess/piecies/Queen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chess/piecies/Rook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,44 +276,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chess/validators/KingUnderAttackValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chess/validators/KnightMoveValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chess/validators/PawnMoveValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chess/validators/PathAvailableValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="315">
+              <caret line="21" column="31" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -301,13 +333,7 @@
         <option value="$PROJECT_DIR$/src/chess/validators/PawnMoveValidator.java" />
         <option value="$PROJECT_DIR$/src/chess/validators/RookMoveValidator.java" />
         <option value="$PROJECT_DIR$/src/chess/validators/QueenMoveValidator.java" />
-        <option value="$PROJECT_DIR$/src/chess/piecies/Bishop.java" />
-        <option value="$PROJECT_DIR$/src/chess/piecies/Knight.java" />
-        <option value="$PROJECT_DIR$/src/chess/piecies/Pawn.java" />
-        <option value="$PROJECT_DIR$/src/chess/piecies/Queen.java" />
-        <option value="$PROJECT_DIR$/src/chess/piecies/Rook.java" />
         <option value="$PROJECT_DIR$/src/chess/validators/KingToCheckValidator.java" />
-        <option value="$PROJECT_DIR$/src/chess/piecies/King.java" />
         <option value="$PROJECT_DIR$/src/chess/statecheckers/BaseStateChangeChecker.java" />
         <option value="$PROJECT_DIR$/src/chess/statecheckers/factory/StateChangeCheckerFactory.java" />
         <option value="$PROJECT_DIR$/src/chess/beans/KingIsUnderAttackResponse.java" />
@@ -315,11 +341,17 @@
         <option value="$PROJECT_DIR$/src/chess/validators/EndSlotWithinBorderValidator.java" />
         <option value="$PROJECT_DIR$/src/chess/validators/factory/ValidatorFactory.java" />
         <option value="$PROJECT_DIR$/src/chess/validators/EmptySlotValidator.java" />
-        <option value="$PROJECT_DIR$/src/chess/statecheckers/KingUnderAttackChecker.java" />
         <option value="$PROJECT_DIR$/src/chess/validators/KingUnderAttackValidator.java" />
-        <option value="$PROJECT_DIR$/src/chess/piecies/Piece.java" />
         <option value="$PROJECT_DIR$/src/chess/Board.java" />
         <option value="$PROJECT_DIR$/src/chess/Main.java" />
+        <option value="$PROJECT_DIR$/src/chess/statecheckers/KingUnderAttackChecker.java" />
+        <option value="$PROJECT_DIR$/src/chess/piecies/Piece.java" />
+        <option value="$PROJECT_DIR$/src/chess/piecies/Bishop.java" />
+        <option value="$PROJECT_DIR$/src/chess/piecies/King.java" />
+        <option value="$PROJECT_DIR$/src/chess/piecies/Knight.java" />
+        <option value="$PROJECT_DIR$/src/chess/piecies/Pawn.java" />
+        <option value="$PROJECT_DIR$/src/chess/piecies/Queen.java" />
+        <option value="$PROJECT_DIR$/src/chess/piecies/Rook.java" />
       </list>
     </option>
   </component>
@@ -357,6 +389,57 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chess" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chess_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chess_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="piecies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chess_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="statecheckers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chess_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="statecheckers" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chess_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chess_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chess_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chess_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -368,7 +451,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576443262325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576451110020" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -525,17 +608,17 @@
       <workItem from="1575918649225" duration="898000" />
       <workItem from="1576353857958" duration="4301000" />
       <workItem from="1576402099843" duration="24115000" />
-      <workItem from="1576443049408" duration="251000" />
+      <workItem from="1576443049408" duration="4251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29565000" />
+    <option name="totallyTimeSpent" value="33565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -545,13 +628,13 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.13150685" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -574,17 +657,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Quin.java" />
     <entry file="file://$PROJECT_DIR$/src/chess/State.java" />
-    <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/factory/StateChangeCheckerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chess/beans/ValidationResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="29" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -592,6 +672,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -606,76 +696,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="54" column="65" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="54" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/piecies/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Bishop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/utils/MessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Queen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/utils/PathCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/validators/BishopMoveValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -693,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/validators/PieceMoveValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chess/validators/EndSlotWithinBorderValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -711,6 +728,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="42" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,53 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="49" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/validators/RookMoveValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/validators/factory/ValidatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/BaseStateChangeChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/PieceGoneChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/validators/KingUnderAttackValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,10 +764,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/validators/PathAvailableValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/chess/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/validators/RookMoveValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/validators/PieceMoveValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/validators/PathAvailableValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/validators/BishopMoveValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/validators/factory/ValidatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/factory/StateChangeCheckerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/utils/PathCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/utils/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/BaseStateChangeChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/validators/KingUnderAttackValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/PieceGoneChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -803,18 +877,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chess/statecheckers/KingUnderAttackChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chess/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Bishop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/piecies/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Queen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chess/piecies/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

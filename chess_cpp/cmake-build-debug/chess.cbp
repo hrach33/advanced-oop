@@ -104,9 +104,6 @@
 		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/beans/ValidationResponse.h">
 			<Option target="chess"/>
 		</Unit>
-		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/main.cpp">
-			<Option target="chess"/>
-		</Unit>
 		<Unit filename="/Users/hrachkhachatryan/CLionProjects/chess/piecies/Bishop.cpp">
 			<Option target="chess"/>
 		</Unit>

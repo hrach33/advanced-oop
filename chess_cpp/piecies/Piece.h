@@ -13,6 +13,7 @@ private:
     bool killed = false;
     bool white = false;
     std::shared_ptr<PieceMoveValidator> pieceMoveValidator;
+    std::shared_ptr<BaseStateChangeChecker> baseStateChangeChecker;
 public:
 
 Piece(bool white);
@@ -33,7 +34,7 @@ virtual std::shared_ptr<PieceMoveValidator> getPieceMoveValidator() ;
 
 void setPieceMoveValidator(std::shared_ptr<PieceMoveValidator> pieceMoveValidator);
 
-virtual void move(Board board, Spot start, Spot end) = 0;
+virtual std::vector<std::string> move(Board board, Spot start, Spot end);
 
 };
 

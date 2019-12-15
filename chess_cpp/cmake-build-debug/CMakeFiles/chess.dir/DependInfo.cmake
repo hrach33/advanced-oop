@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/hrachkhachatryan/CLionProjects/chess/Spot.cpp" "/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/CMakeFiles/chess.dir/Spot.cpp.o"
   "/Users/hrachkhachatryan/CLionProjects/chess/beans/KingIsUnderAttackResponse.cpp" "/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/CMakeFiles/chess.dir/beans/KingIsUnderAttackResponse.cpp.o"
   "/Users/hrachkhachatryan/CLionProjects/chess/beans/ValidationResponse.cpp" "/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/CMakeFiles/chess.dir/beans/ValidationResponse.cpp.o"
-  "/Users/hrachkhachatryan/CLionProjects/chess/main.cpp" "/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/CMakeFiles/chess.dir/main.cpp.o"
   "/Users/hrachkhachatryan/CLionProjects/chess/piecies/Bishop.cpp" "/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/CMakeFiles/chess.dir/piecies/Bishop.cpp.o"
   "/Users/hrachkhachatryan/CLionProjects/chess/piecies/King.cpp" "/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/CMakeFiles/chess.dir/piecies/King.cpp.o"
   "/Users/hrachkhachatryan/CLionProjects/chess/piecies/Knight.cpp" "/Users/hrachkhachatryan/CLionProjects/chess/cmake-build-debug/CMakeFiles/chess.dir/piecies/Knight.cpp.o"

@@ -16,7 +16,6 @@ public:
         return std::vector<Spot>();
     }
 
-    void move(Board* board, Spot* start, Spot* end);
 };
 
 

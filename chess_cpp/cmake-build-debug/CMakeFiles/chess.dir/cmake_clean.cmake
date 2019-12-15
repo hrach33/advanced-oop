@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chess.dir/main.cpp.o"
   "CMakeFiles/chess.dir/piecies/Bishop.cpp.o"
   "CMakeFiles/chess.dir/piecies/Piece.cpp.o"
   "CMakeFiles/chess.dir/beans/KingIsUnderAttackResponse.cpp.o"

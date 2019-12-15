@@ -12,8 +12,6 @@ public:
     Bishop(bool white):Piece(white) {
     }
     std::vector<Spot> getPathSpots(Board* board, Spot* start, Spot* end);
-
-    void move(Board* board, Spot* start, Spot* end);
 };
 
 

@@ -6,6 +6,7 @@
 #include "../beans/ValidationResponse.h"
 #include "../validators/PieceMoveValidator.h"
 
+
 Piece::Piece(bool white) {
     this->setWhite(white);
 }
@@ -37,6 +38,16 @@ PieceMoveValidator Piece::getPieceMoveValidator() {
 
 void Piece::setPieceMoveValidator(std::shared_ptr<PieceMoveValidator> pieceMoveValidator) {
     this->pieceMoveValidator = pieceMoveValidator;
+}
+
+std::vector<std::string> move(Board* board, Spot* start, Spot* end){
+    std::vector<std::string> messages ;
+    baseStateChangeChecker->execute(board, start, end, messages);
+
+    end->setPiece(start->getPiece());
+    start->setPiece(nullptr);
+
+    return messages;
 }
 
 
